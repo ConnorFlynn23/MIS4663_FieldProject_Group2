@@ -1,6 +1,8 @@
 ﻿<html>
+
 <head>
-    <title>Field Project</title>
+    <title>Home Page</title>
+
     <!-- Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
@@ -21,9 +23,132 @@
 
     <link href="https://juxinglong.github.io/mis3033_spring2023/mis3033css.css" rel="stylesheet" />
 
+
 </head>
-<body>
-    <div>Field Project</div>
-    <div>Jordan was here</div>
+
+
+
+<body style="margin:20px;">
+    <!--Title-->
+    <center>
+        <div class="alert alert-dark text-uppercase fs-4 fw-bold">PROJECT INFORMATION AND SUBMISSION FORM</div>
+        <div class="alert alert-dark text-uppercase fs-4 fw-bold">MIS 4663 MIS Field Project Course</div>
+    </center>
+
+    <!--Tabs-->
+    <div>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="/home/index" target="_self">Clients Information</a>
+            </li>
+        </ul>
+    </div>
+
+    <!--Inputs-->
+
+    <div class="m-bd-callout m-bd-callout-primary" style="width:500px;">
+        Client Information
+
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Name:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First and Last Name">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Title:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Title">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Organization:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Organization">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ExampleEmail@Example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Phone Number:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(xxx)-xxx-xxxx">
+            </div>
+           
+            Project Information
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Company Description</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Company Description</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Project Description</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Project Expectations</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Project Constraints</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </form>
+
+
+@*        <div class="input-group">
+            <label class="input-group-text">Name:</label>
+            <input id="id" type="text" class="form-control" />
+        </div>
+
+        <div class="input-group">
+            <label class="input-group-text">Title:</label>
+            <input id="name" type="text" class="form-control" />
+        </div>
+
+        <div class="input-group">
+            <label class="input-group-text">Organization:</label>
+            <input id="age" type="text" class="form-control" />
+        </div>
+
+        <div class="input-group">
+            <label class="input-group-text">E-Mail::</label>
+            <input id="age" type="text" class="form-control" />
+        </div>
+
+*@
+@*        Project Information
+        <div class="input-group">
+            <label class="input-group-text">Company Description:</label>
+            <label class="input-group-text">Please briefly describe your organization:</label>
+            <input id="age" type="text" class="form-control" />
+        </div>
+
+        <div class="input-group">
+            <label class="input-group-text">Project Description:</label>
+            <label class="input-group-text">Please briefly describe your business problems:</label>
+            <input id="age" type="text" class="form-control" />
+        </div>
+
+        <div class="input-group">
+            <label class="input-group-text">Project Expectations:</label>
+            <label class="input-group-text">Please provide 4-6 bullets describing what you want accomplished:</label>
+            <input id="age" type="text" class="form-control" />
+        </div>
+
+        <div class="input-group">
+            <label class="input-group-text">Project Constraints:</label>
+            <label class="input-group-text">Please describe any contraints or limitations:</label>
+            <input id="age" type="text" class="form-control" />
+        </div>
+
+
+*@
+
+
+        <button class="btn btn-danger btn-sm" id="delete">Submit</button>
+
+        <span id="status" class="badge"></span>
+
+    </div>
 </body>
-</html>
+

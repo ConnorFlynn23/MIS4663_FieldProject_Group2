@@ -1,0 +1,67 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "DB_128040_group2Context",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": "Data",
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "MIS4663_FieldProject_Group2",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[TCompanyDescription]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TContact]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TPermissions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TProject]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TRoles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TUserRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TUsers]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "s30.DB_128040_group2.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
